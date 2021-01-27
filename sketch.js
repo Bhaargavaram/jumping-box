@@ -44,7 +44,7 @@ function draw() {
         ball.shapeColor = rgb(255,128,0);
         ball.velocityX = 0;
         ball.velocityY = 0;
-        music.stop();
+        music.play();
     }
 
     if(block3.isTouching(ball) && ball.bounceOff(block3)){
